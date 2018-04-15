@@ -1,0 +1,25 @@
+{
+  "name": "javascript-test-template",
+  "version": "0.1.0",
+  "description": "Project boilerplate for testing javascript components",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodper/javascript-test-template.git"
+  },
+  "keywords": [
+    "test",
+    "javascript",
+    "boilerplate",
+    "template"
+  ],
+  "author": "Per Flitig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodper/javascript-test-template/issues"
+  },
+  "homepage": "https://github.com/sodper/javascript-test-template#readme"
+}
