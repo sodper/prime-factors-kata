@@ -10,3 +10,23 @@ Run tests with:
 ```
 npm test
 ```
+
+## Examples
+
+### Asynchronous code
+
+Use `done()` callback for testing asynchronous code:
+
+```
+describe('User', function() {
+  describe('#save()', function() {
+    it('should save without error', function(done) {
+      var user = new User('Luna');
+      user.save(function(err) {
+        if (err) done(err);
+        else done();
+      });
+    });
+  });
+});
+```
