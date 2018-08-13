@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/sodper/javascript-test-template#readme",
   "devDependencies": {
-    "mocha": "^5.1.0"
+    "mocha": "^5.1.0",
+    "standard": "^11.0.1"
   }
 }
